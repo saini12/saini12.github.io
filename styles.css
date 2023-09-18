@@ -1,0 +1,44 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+button.add-to-cart {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.add-to-cart:hover {
+    background-color: #e64a2e;
+}
