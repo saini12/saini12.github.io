@@ -42,3 +42,25 @@ button.add-to-cart {
 button.add-to-cart:hover {
     background-color: #e64a2e;
 }
+
+
+#campaign-banner {
+    background-color: #ff5733;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+#close-campaign {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+}

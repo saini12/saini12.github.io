@@ -36,3 +36,23 @@ function checkout() {
     total = 0;
     updateCartView();
 }
+
+
+
+
+// Show the campaign banner on page load
+window.onload = function () {
+    const campaignBanner = document.getElementById('campaign-banner');
+    campaignBanner.style.display = 'block';
+};
+
+// Function to close the campaign banner
+function closeCampaign() {
+    const campaignBanner = document.getElementById('campaign-banner');
+    campaignBanner.style.display = 'none';
+}
+
+// Function to navigate to products.html
+function navigateToProducts() {
+    window.location.href = 'products.html';
+}
