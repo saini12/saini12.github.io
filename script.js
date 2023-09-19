@@ -38,8 +38,6 @@ function checkout() {
 }
 
 
-
-
 // Show the campaign banner on page load
 window.onload = function () {
     const campaignBanner = document.getElementById('campaign-banner');
